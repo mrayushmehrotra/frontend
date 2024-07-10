@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* container1 start  */
+
+#container1 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#about {
+  display: flex;
+  padding: 0 10% 0 20%;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#about h1 {
+  font-size: 100px;
+}
+
+#about h2 {
+  font-size: 50px;
+}
+
+#about h3 {
+  background-color: #d2d1cc;
+  color: black;
+  padding: 8px;
+  margin-bottom: 4vh;
+  font-weight: 600;
+}
+#about p {
+  color: rgba(128, 128, 128, 0.6);
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+#image {
+  background-image: url("https://media.istockphoto.com/id/656673020/photo/handsome-in-spectacles.jpg?s=612x612&w=0&k=20&c=klIlcueGJlAnOehrIZNpvFrVT_olKKqhaVT77H5Fj-s=");
+  background-size: cover;
+  background-position: 50%;
+}
+
+#name {
+  color: white;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #f7b73b;
+}
+
+#about button {
+  padding: 2vh;
+  color: white;
+  background-color: #f7b73b;
+  border-radius: 500px;
+  border: 0.5px solid yellow;
+}
+
+#about button h1 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#feature {
+  display: flex;
+  gap: 30px;
+  max-width: fit-content;
+  flex-direction: column;
+  padding: 20px 10px;
+  font-size: 30px;
+  border-radius: 500px;
+  background-color: #f7b73b;
+  position: fixed;
+  left: 95%;
+  top: 30%;
+}
+
+#feature a {
+  color: black;
+  text-decoration: none;
+}
+
+#image i:hover {
+  color: white;
+}
+
+/* container1 finish */
+
+#container2-div2 {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#container2 {
+  background-color: #b0b0b0;
+
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#img-href {
+  display: grid;
+  grid-template-rows: 30% 10%;
+  background-color: #ffba31;
+  width: 15%;
+  height: 100%;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+#container2-img {
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 5vh;
+}
+
+#container2-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-left: 80px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:hover {
+  color: white;
+}
+
+#container2-hero h1 {
+  display: flex;
+  left: 50%;
+  max-width: fit-content;
+  border: 3px dotted grey;
+  font-size: 150px;
+}
