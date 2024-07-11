@@ -48,9 +48,9 @@ body {
 }
 
 #center h1 {
-  font-size: 70px;
+  font-size: 4.2vw;
   font-weight: 500;
-  line-height: 80px;
+  line-height: 4.2vw;
 }
 
 #center-in {
@@ -63,9 +63,9 @@ body {
 }
 
 #center-in p {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 2vw;
 }
 
 #right {
@@ -107,4 +107,91 @@ body {
   background-image: url("https://plus.unsplash.com/premium_photo-1690349404248-3ddd9be40eb1?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: 0 20%;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    height: 60px;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  #nav h4 {
+    font-size: 2.2vw;
+    font-weight: 500;
+    /* display: none; */
+  }
+
+  #nav i {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding: 7px;
+    border-radius: 50%;
+    font-weight: 500;
+  }
+
+  #center {
+    width: 100%;
+    /* background-color: red; */
+    padding: 15px 20px;
+  }
+
+  #center h1 {
+    font-size: 9vw;
+    font-weight: 500;
+    line-height: 10.2vw;
+  }
+
+  #center-in {
+    height: 200px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #center-in p {
+    font-size: 3.3vw;
+    font-weight: 600;
+    line-height: 4vw;
+  }
+
+  #right {
+    width: 100%;
+  }
+
+  .elem {
+    padding: 10px 0;
+    border-top: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .elem a {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .elem i {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 1;
+    color: #303030;
+  }
+
+  #bottom {
+    height: 33%;
+    width: 100%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1690349404248-3ddd9be40eb1?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: 0 20%;
+  }
 }
