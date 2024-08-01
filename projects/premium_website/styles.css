@@ -430,12 +430,4 @@ html {
 #footer {
   height: 40%;
   width: 100%;
-  display: flex;
-  padding: 5vw;
-  align-items: center;
-  justify-content: space-around;
-}
-
-#footer ul li {
-  list-style-type: none;
 }
